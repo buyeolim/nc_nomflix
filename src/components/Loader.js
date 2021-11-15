@@ -8,12 +8,13 @@ const Container = styled.div`
   justify-content: center;
   font-size: 32px;
   margin-top: 20px;
+  color: rgba(255, 255, 255, 0.2);
 `;
 
 export default () => (
   <Container>
     <span role="img" aria-label="Loading">
-      ⏰
+      LOADING...
     </span>
   </Container>
 );
